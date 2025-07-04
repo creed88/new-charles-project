@@ -1,0 +1,30 @@
+   # Terraform
+   terraform/.terraform/
+   terraform/terraform.tfstate
+   terraform/terraform.tfstate.backup
+   terraform/.terraform.lock.hcl
+
+   # Node.js
+   frontend/node_modules/
+   backend/node_modules/
+   frontend/build/
+   backend/dist/
+
+   # Docker
+   *.tar
+   *.gz
+   .docker/
+
+   # Logs and temporary files
+   *.log
+   *.tmp
+   .DS_Store
+
+   # Vault secrets
+   vault/*.key
+   vault/*.cert
+   vault/token.jwt
+   vault/ca.crt
+
+   # Terraform provider binaries
+   terraform/.terraform/providers/
