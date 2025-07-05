@@ -18,3 +18,5 @@ vault/ca.crt
 terraform/.terraform/
 
 terraform/.terraform/
+node_modules/
+
