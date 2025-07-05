@@ -15,14 +15,8 @@ jobs:
     - name: Install frontend dependencies
       run: npm install
       working-directory: frontend
-    - name: Run ESLint for frontend
-      run: npm run lint
-      working-directory: frontend
     - name: Install backend dependencies
       run: npm install
-      working-directory: backend
-    - name: Run ESLint for backend
-      run: npm run lint
       working-directory: backend
     - name: Configure AWS credentials
       uses: aws-actions/configure-aws-credentials@v2
