@@ -17,3 +17,4 @@ vault/ca.crt
 # Terraform provider binaries and cache
 terraform/.terraform/
 
+terraform/.terraform/
